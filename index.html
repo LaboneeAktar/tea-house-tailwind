@@ -27,6 +27,7 @@
               primary: "#FF0000",
               secondary: "#FF8938",
               gold: "#FFC850",
+              cardbg: "#F4F4F4",
             },
           },
         },
@@ -79,7 +80,53 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="max-w-screen-xl mx-auto px-10 lg:px-12 lg:mb-20">
+      <section>
+        <div class="text-center">
+          <h2 class="text-3xl font-extrabold">Our Featured Products</h2>
+          <p class="text-gray-500 py-5">
+            If you are cold, tea will warm you; <br />
+            if you are too heated, it will cool you; If you are depressed, it
+            will cheer you; If you are excited, it will calm you.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 gap-7 mt-10 md:grid-cols-2 lg:grid-cols-4 lg:items-center lg:mt-20"
+        >
+          <!-- Card -->
+          <div
+            class="bg-gradient-to-b from-cardbg flex flex-col justify-center items-center rounded-lg shadow-sm"
+          >
+            <img class="px-10 py-5" src="images/tea-1.png" alt="" />
+            <h5>Lemon Tea</h5>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+          <div
+            class="bg-gradient-to-b from-cardbg flex flex-col justify-center items-center rounded-lg shadow-sm"
+          >
+            <img class="px-10 py-5" src="images/tea-2.png" alt="" />
+            <h5>Milk Tea</h5>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+          <div
+            class="bg-gradient-to-b from-cardbg flex flex-col justify-center items-center rounded-lg shadow-sm"
+          >
+            <img class="px-10 py-5" src="images/tea-3.png" alt="" />
+            <h5 class="font-extrabold text-xl">Black Tea</h5>
+            <p class="text-center text-gray-500">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div
+            class="bg-gradient-to-b from-cardbg flex flex-col justify-center items-center rounded-lg shadow-sm"
+          >
+            <img class="px-10 py-5" src="images/tea-4.png" alt="" />
+            <h5>Green Tea</h5>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
